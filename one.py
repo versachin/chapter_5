@@ -7,11 +7,11 @@ def daynumtoname(num):
         return "Tuesday"
     elif num == 3:
         return "Wednesday"
-    elif num == 4:
+    elif  4:
         return "Thursday"
-    elif num == 5:
+    elif  5:
         return "Friday"
-    elif num == 6:
+    elif  6:
         return "Saturday"
     else:
         return "Please enter an integer between 0 and 6."
