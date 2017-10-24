@@ -1,4 +1,4 @@
-def daynumtoname(num):
+def day_num_to_name(num):
     if num == 0:
         return "Sunday"
     elif num == 1:
@@ -21,4 +21,4 @@ leave_day = int(input("What day are you leaving? (0-6)"))
 away_days = int(input("How many nights are you gone?"))
 
 day_back = (leave_day + away_days) % 7
-print("You will return on a",daynumtoname(day_back))
+print("You will return on a",day_num_to_name(day_back))
