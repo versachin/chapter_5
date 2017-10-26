@@ -22,16 +22,16 @@ grade_list = [83, 75, 74.9, 70, 69.9, 65, 60, 59.9, 55, 50, 49.9, 45, 44.9, 40, 
 Test your function by printing the mark and the grade for all the elements in this list.
 """
 def mark_to_grade(num):
-    if num != 85:
-         "Great"
+    if num >= 85:
+         return "Great"
     elif num >= 80:
-         "Good"
+         return "Good"
     elif num >= 70:
-         "OK"
+         return "OK"
     elif num >= 50:
-        "Needs Help"
-    elif:
-        return "Failing"
+        return "Needs Help"
+    elif num>= 0:
+       return "failing"
 grade_list = [83, 75, 74.9, 70, 69.9, 65, 60, 59.9, 55, 50, 49.9, 45, 44.9, 40, 39.9, 2, 0]
 
 for i in grade_list:
