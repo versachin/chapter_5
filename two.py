@@ -28,7 +28,7 @@ def day_num_to_name(num):
         return day_num_to_name(int(input("Please enter an integer between 0 and 6:")))#trying out some recurrsion here in case somehow they enter something besides 0-6
         
     
-print(day_num_to_name(int(input("Please enter an integer between 0 and 6."))))
+#print(day_num_to_name(int(input("Please enter an integer between 0 and 6."))))
 leave_day = int(input("What day are you leaving? (0-6)"))
 away_days = int(input("How many nights are you gone?"))
 
