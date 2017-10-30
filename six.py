@@ -12,7 +12,7 @@ Mark    Grade
 [50-60) Needs Help
 <50     Failing
 
-The square and round brackets denote closed and open intervals.
+#The square and round brackets denote closed and open intervals.
 A closed interval includes the number, and open interval excludes it.
 So 49.99999 gets grade Failing, but 50 gets grade Needs Help. Assume:
 
@@ -27,6 +27,8 @@ def mark_to_grade(num):
     elif num >= 80 and num < 90:
          return "Good"
     elif num >= 70 and num <80:
+         return "OK"
+        elif num >= 60 and num <70:
          return "OK"
     elif num >= 50 and num < 70:
         return "Needs Help"
