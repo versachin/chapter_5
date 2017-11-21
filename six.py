@@ -28,7 +28,7 @@ def mark_to_grade(num):
          return "Good"
     elif num >= 70 and num <80:
          return "OK"
-        elif num >= 60 and num <70:
+    elif num >= 60 and num <70:
          return "OK"
     elif num >= 50 and num < 70:
         return "Needs Help"
